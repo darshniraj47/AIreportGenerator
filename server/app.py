@@ -30,7 +30,16 @@ from firebase_admin import credentials
 
 # Initialize Firebase Admin SDK
 try:
-    if os.path.exists("serviceAccountKey.json"):
+    firebase_creds = os.environ.get("FIREBASE_CREDENTIALS")
+    if firebase_creds:
+        # Vercel deployment uses environment variable
+        import json
+        cred_dict = json.loads(firebase_creds)
+        cred = credentials.Certificate(cred_dict)
+        firebase_admin.initialize_app(cred)
+        print("Firebase Admin initialized successfully with FIREBASE_CREDENTIALS env var.")
+    elif os.path.exists("serviceAccountKey.json"):
+        # Local development uses file
         cred = credentials.Certificate("serviceAccountKey.json")
         firebase_admin.initialize_app(cred)
         print("Firebase Admin initialized successfully with serviceAccountKey.json")

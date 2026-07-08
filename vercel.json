@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server/app.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "client/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "rewrites": [
+    { "source": "/generate", "destination": "/server/app.py" },
+    { "source": "/history", "destination": "/server/app.py" },
+    { "source": "/history/(.*)", "destination": "/server/app.py" },
+    { "source": "/preview", "destination": "/server/app.py" },
+    { "source": "/health", "destination": "/server/app.py" },
+    { "source": "/(.*)", "destination": "/client/dist/index.html" }
+  ]
+}
