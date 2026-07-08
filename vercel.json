@@ -19,6 +19,6 @@
     { "source": "/history/(.*)", "destination": "/server/app.py" },
     { "source": "/preview", "destination": "/server/app.py" },
     { "source": "/health", "destination": "/server/app.py" },
-    { "source": "/(.*)", "destination": "/client/dist/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
