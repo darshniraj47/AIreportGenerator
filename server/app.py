@@ -14,6 +14,11 @@ Run with Gunicorn (production):
 import os
 import json
 import base64
+import sys
+
+# Add the server directory to python path for Vercel deployment
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 # FIX: Protobuf compatibility bug with Python 3.14 alpha
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 
