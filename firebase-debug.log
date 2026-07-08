@@ -1,0 +1,107 @@
+[debug] [2026-07-08T07:23:32.812Z] ----------------------------------------------------------------------
+[debug] [2026-07-08T07:23:32.819Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2026-07-08T07:23:32.819Z] CLI Version:   15.22.4
+[debug] [2026-07-08T07:23:32.820Z] Platform:      win32
+[debug] [2026-07-08T07:23:32.820Z] Node Version:  v24.12.0
+[debug] [2026-07-08T07:23:32.820Z] Detected Agent: antigravity
+[debug] [2026-07-08T07:23:32.820Z] Time:          Wed Jul 08 2026 12:53:32 GMT+0530 (India Standard Time)
+[debug] [2026-07-08T07:23:32.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-08T07:23:38.103Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-08T07:23:38.103Z] > authorizing via signed-in user (darshniraj47@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2026-07-08T07:23:38.130Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-07-08T07:23:38.131Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2026-07-08T07:23:38.145Z] Found emulator hub locator: {"version":"15.22.4","origins":["http://127.0.0.1:4400","http://[::1]:4400"],"pid":12276}
+[debug] [2026-07-08T07:23:38.146Z] Write emulator hub locator at C:\Users\DELL\AppData\Local\Temp\hub-aireportgenrator.json
+[debug] [2026-07-08T07:23:38.188Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-07-08T07:23:38.189Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-07-08T07:23:38.189Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2026-07-08T07:23:38.189Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2026-07-08T07:23:38.230Z] defaultcredentials: writing to file C:\Users\DELL\AppData\Roaming\firebase\darshniraj47_gmail_com_application_default_credentials.json
+[debug] [2026-07-08T07:23:38.233Z] Setting GAC to C:\Users\DELL\AppData\Roaming\firebase\darshniraj47_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\DELL\\AppData\\Roaming\\firebase\\darshniraj47_gmail_com_application_default_credentials.json"}}
+[debug] [2026-07-08T07:23:38.238Z] Checked if tokens are valid: true, expires at: 1783497174284
+[debug] [2026-07-08T07:23:38.238Z] Checked if tokens are valid: true, expires at: 1783497174284
+[debug] [2026-07-08T07:23:38.241Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/aireportgenrator/adminSdkConfig [none]
+[debug] [2026-07-08T07:23:40.258Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/aireportgenrator/adminSdkConfig 200
+[debug] [2026-07-08T07:23:40.258Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/aireportgenrator/adminSdkConfig {"projectId":"aireportgenrator","storageBucket":"aireportgenrator.firebasestorage.app"}
+[info] i  functions: Watching "D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\Users\\Downloads\\AI report genartor (2)\\AI report genartor\\AI report genartor\\server\" for Cloud Functions..."}}
+[debug] [2026-07-08T07:23:40.326Z] Customer code is not Node
+[debug] [2026-07-08T07:23:40.327Z] Validating python source
+[debug] [2026-07-08T07:23:40.328Z] Building python source
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2026-07-08T07:23:40.433Z] Could not find functions.yaml. Must use http discovery
+[debug] [2026-07-08T07:23:40.458Z] Running command with virtualenv: command="D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Scripts\activate.bat", args=["&&","python.exe","-c","\"import firebase_functions; import os; print(os.path.dirname(firebase_functions.__file__))\""]
+[debug] [2026-07-08T07:23:41.065Z] stdout: D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Lib\site-packages\firebase_functions
+
+[debug] [2026-07-08T07:23:41.092Z] Running admin server with args: ["python.exe","\"D:\\Users\\Downloads\\AI report genartor (2)\\AI report genartor\\AI report genartor\\server\\venv\\Lib\\site-packages\\firebase_functions\\private\\serving.py\""] and env: {"GCLOUD_PROJECT":"aireportgenrator","K_REVISION":"1","PORT":"80","GOOGLE_CLOUD_QUOTA_PROJECT":"aireportgenrator","FUNCTIONS_EMULATOR":"true","TZ":"UTC","FIREBASE_DEBUG_MODE":"true","FIREBASE_DEBUG_FEATURES":"{\"skipTokenVerification\":true,\"enableCors\":true}","FIREBASE_EMULATOR_HUB":"127.0.0.1:4400","CLOUD_EVENTARC_EMULATOR_HOST":"http://127.0.0.1:9299","CLOUD_TASKS_EMULATOR_HOST":"127.0.0.1:9499","FIREBASE_CONFIG":"{\"storageBucket\":\"aireportgenrator.firebasestorage.app\",\"projectId\":\"aireportgenrator\"}","GOOGLE_APPLICATION_CREDENTIALS":"C:\\Users\\DELL\\AppData\\Roaming\\firebase\\darshniraj47_gmail_com_application_default_credentials.json","ADMIN_PORT":"8081"} in D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server
+[debug] [2026-07-08T07:23:41.092Z] Running command with virtualenv: command="D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Scripts\activate.bat", args=["&&","python.exe","\"D:\\Users\\Downloads\\AI report genartor (2)\\AI report genartor\\AI report genartor\\server\\venv\\Lib\\site-packages\\firebase_functions\\private\\serving.py\""]
+[error] Traceback (most recent call last):
+
+[error]   File "D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Lib\site-packages\firebase_functions\private\serving.py", line 30, in <module>
+    from firebase_functions.private import manifest as _manifest
+  File "D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Lib\site-packages\firebase_functions\private\manifest.py", line 25, in <module>
+    import firebase_functions.private.util as _util
+  File "D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Lib\site-packages\firebase_functions\private\util.py", line 25, in <module>
+    from functions_framework import logging as _logging
+  File "D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Lib\site-packages\functions_framework\__init__.py", line 34, in <module>
+    from functions_framework import _function_registry, _typed_event, event_conversion
+  File "D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Lib\site-packages\functions_framework\_function_registry.py", line 19, in <module>
+    from re import T
+ImportError: cannot import name 'T' from 're' (C:\Python314\Lib\re\__init__.py)
+
+[debug] [2026-07-08T07:23:43.355Z] Error: spawn "D:\Users\Downloads\AI report genartor (2)\AI report genartor\AI report genartor\server\venv\Scripts\activate.bat" ENOENT
+    at notFoundError (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at cp.emit (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-07-08T07:23:43.644Z] Found emulator hub locator: {"version":"15.22.4","origins":["http://127.0.0.1:4400","http://[::1]:4400"],"pid":14944}
+[debug] [2026-07-08T08:23:36.785Z] ----------------------------------------------------------------------
+[debug] [2026-07-08T08:23:36.786Z] Command:       /Users/elangovan/.nvm/versions/node/v20.20.2/bin/node /Users/elangovan/.nvm/versions/node/v20.20.2/bin/firebase deploy
+[debug] [2026-07-08T08:23:36.786Z] CLI Version:   15.18.0
+[debug] [2026-07-08T08:23:36.786Z] Platform:      darwin
+[debug] [2026-07-08T08:23:36.786Z] Node Version:  v20.20.2
+[debug] [2026-07-08T08:23:36.786Z] Time:          Wed Jul 08 2026 13:53:36 GMT+0530 (India Standard Time)
+[debug] [2026-07-08T08:23:36.786Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-08T08:23:36.787Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-07-08T08:23:37.526Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-08T08:23:37.526Z] > authorizing via signed-in user (cyrilchrisj@gmail.com)
+[debug] [2026-07-08T08:23:37.527Z] [iam] checking project aireportgenrator for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-07-08T08:23:37.527Z] Checked if tokens are valid: false, expires at: 1779089602682
+[debug] [2026-07-08T08:23:37.527Z] Checked if tokens are valid: false, expires at: 1779089602682
+[debug] [2026-07-08T08:23:37.527Z] > refreshing access token with scopes: []
+[debug] [2026-07-08T08:23:37.527Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-07-08T08:23:37.527Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-07-08T08:23:37.861Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-07-08T08:23:37.861Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-07-08T08:23:37.874Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/aireportgenrator:testIamPermissions [none]
+[debug] [2026-07-08T08:23:37.874Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/aireportgenrator:testIamPermissions  x-goog-user-project=aireportgenrator
+[debug] [2026-07-08T08:23:37.874Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/aireportgenrator:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-07-08T08:23:38.261Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-07-08T08:23:38.261Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-07-08T08:23:39.463Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/aireportgenrator:testIamPermissions 403
+[debug] [2026-07-08T08:23:39.463Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/aireportgenrator:testIamPermissions {"error":{"code":403,"message":"Caller does not have required permission to use project aireportgenrator. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam?project=aireportgenrator and then retry. Propagation of the new permission may take a few minutes.","status":"PERMISSION_DENIED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"USER_PROJECT_DENIED","domain":"googleapis.com","metadata":{"containerInfo":"aireportgenrator","service":"cloudresourcemanager.googleapis.com","consoleUrl":"https://console.developers.google.com/iam-admin/iam?project=aireportgenrator","consumer":"projects/aireportgenrator"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"Caller does not have required permission to use project aireportgenrator. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam?project=aireportgenrator and then retry. Propagation of the new permission may take a few minutes."},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Google developer console IAM admin","url":"https://console.developers.google.com/iam-admin/iam?project=aireportgenrator"}]}]}}
+[debug] [2026-07-08T08:23:39.465Z] [iam] error while checking permissions, command may fail: Request to https://cloudresourcemanager.googleapis.com/v1/projects/aireportgenrator:testIamPermissions had HTTP Error: 403, Caller does not have required permission to use project aireportgenrator. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam?project=aireportgenrator and then retry. Propagation of the new permission may take a few minutes.
+[debug] [2026-07-08T08:23:39.465Z] Checked if tokens are valid: true, expires at: 1783502616861
+[debug] [2026-07-08T08:23:39.465Z] Checked if tokens are valid: true, expires at: 1783502616861
+[debug] [2026-07-08T08:23:39.465Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/aireportgenrator/serviceAccounts/aireportgenrator@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2026-07-08T08:23:39.465Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/aireportgenrator/serviceAccounts/aireportgenrator@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2026-07-08T08:23:41.255Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/aireportgenrator/serviceAccounts/aireportgenrator@appspot.gserviceaccount.com:testIamPermissions 404
+[debug] [2026-07-08T08:23:41.255Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/aireportgenrator/serviceAccounts/aireportgenrator@appspot.gserviceaccount.com:testIamPermissions {"error":{"code":404,"message":"Unknown service account","status":"NOT_FOUND"}}
+[debug] [2026-07-08T08:23:41.256Z] [functions] service account IAM check errored, deploy may fail: Request to https://iam.googleapis.com/v1/projects/aireportgenrator/serviceAccounts/aireportgenrator@appspot.gserviceaccount.com:testIamPermissions had HTTP Error: 404, Unknown service account {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Unknown service account","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://iam.googleapis.com/v1/projects/aireportgenrator/serviceAccounts/aireportgenrator@appspot.gserviceaccount.com:testIamPermissions had HTTP Error: 404, Unknown service account","status":404}
+[debug] [2026-07-08T08:23:41.257Z] Checked if tokens are valid: true, expires at: 1783502616861
+[debug] [2026-07-08T08:23:41.257Z] Checked if tokens are valid: true, expires at: 1783502616861
+[debug] [2026-07-08T08:23:41.257Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/aireportgenrator [none]
+[debug] [2026-07-08T08:23:42.040Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/aireportgenrator 403
+[debug] [2026-07-08T08:23:42.040Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/aireportgenrator {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-07-08T08:23:42.041Z] Request to https://firebase.googleapis.com/v1beta1/projects/aireportgenrator had HTTP Error: 403, The caller does not have permission
+[debug] [2026-07-08T08:23:42.350Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/aireportgenrator had HTTP Error: 403, The caller does not have permission
+    at responseToError (/Users/elangovan/.nvm/versions/node/v20.20.2/lib/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/Users/elangovan/.nvm/versions/node/v20.20.2/lib/node_modules/firebase-tools/lib/apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project aireportgenrator. Please make sure the project exists and your account has permission to access it.

@@ -1,0 +1,180 @@
+{
+  "categories": [
+    {
+      "name": "Artificial Intelligence",
+      "icon": "🤖",
+      "topics": [
+        "Introduction to Artificial Intelligence",
+        "History and Evolution of Artificial Intelligence",
+        "Expert Systems in AI",
+        "AI Ethics and Responsible AI Development",
+        "Artificial General Intelligence (AGI)",
+        "AI in Healthcare Diagnostics",
+        "AI-Powered Autonomous Vehicles",
+        "AI in Education and Personalized Learning",
+        "The Future of AI in the Workplace",
+        "AI and Human Collaboration"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "📊",
+      "topics": [
+        "Supervised Learning Algorithms",
+        "Unsupervised Learning and Clustering",
+        "Reinforcement Learning Fundamentals",
+        "Transfer Learning in Machine Learning",
+        "Feature Engineering and Selection",
+        "Overfitting and Regularization Techniques",
+        "Ensemble Methods: Bagging and Boosting",
+        "Support Vector Machines (SVM)",
+        "Decision Trees and Random Forests",
+        "Gradient Boosting and XGBoost"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "icon": "🧠",
+      "topics": [
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN) and LSTM",
+        "Generative Adversarial Networks (GAN)",
+        "Transformer Architecture in Deep Learning",
+        "Autoencoders and Variational Autoencoders",
+        "Deep Learning for Image Recognition",
+        "Attention Mechanisms in Neural Networks",
+        "Batch Normalization and Dropout",
+        "Graph Neural Networks (GNN)",
+        "Neural Architecture Search (NAS)"
+      ]
+    },
+    {
+      "name": "Natural Language Processing",
+      "icon": "💬",
+      "topics": [
+        "Introduction to Natural Language Processing",
+        "Sentiment Analysis using NLP",
+        "Named Entity Recognition (NER)",
+        "Text Summarization Techniques",
+        "Machine Translation and Neural MT",
+        "Large Language Models (LLMs)",
+        "BERT and Bidirectional Transformers",
+        "Text Classification with Deep Learning",
+        "Question Answering Systems",
+        "Chatbots and Conversational AI"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "icon": "👁️",
+      "topics": [
+        "Object Detection and YOLO Algorithm",
+        "Image Segmentation Techniques",
+        "Facial Recognition Technology",
+        "Medical Image Analysis using AI",
+        "Video Understanding and Action Recognition",
+        "3D Computer Vision and Depth Estimation",
+        "Optical Character Recognition (OCR)",
+        "Image Generation with Diffusion Models",
+        "Pose Estimation in Computer Vision",
+        "Autonomous Driving Vision Systems"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "icon": "📈",
+      "topics": [
+        "Data Preprocessing and Cleaning",
+        "Exploratory Data Analysis (EDA)",
+        "Data Visualization Best Practices",
+        "Statistical Analysis for Data Science",
+        "Big Data Technologies and Hadoop",
+        "Apache Spark for Large-Scale Data",
+        "Data Lakes vs Data Warehouses",
+        "Predictive Analytics in Business",
+        "Time Series Analysis and Forecasting",
+        "ETL Pipelines and Data Engineering"
+      ]
+    },
+    {
+      "name": "Cyber Security",
+      "icon": "🔐",
+      "topics": [
+        "Introduction to Cybersecurity",
+        "Types of Cyber Attacks and Threats",
+        "Ethical Hacking and Penetration Testing",
+        "Zero Trust Security Architecture",
+        "AI-Powered Intrusion Detection Systems",
+        "Ransomware: Prevention and Response",
+        "Cryptography and Encryption Fundamentals",
+        "Network Security and Firewalls",
+        "Social Engineering and Phishing Attacks",
+        "Cybersecurity in Critical Infrastructure"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "icon": "☁️",
+      "topics": [
+        "Introduction to Cloud Computing",
+        "AWS, Azure, and Google Cloud Comparison",
+        "Serverless Computing Architecture",
+        "Docker and Containerization",
+        "Kubernetes Orchestration",
+        "Cloud Security Best Practices",
+        "Microservices Architecture",
+        "DevOps and CI/CD Pipelines",
+        "Edge Computing vs Cloud Computing",
+        "Multi-Cloud Strategy and Hybrid Cloud"
+      ]
+    },
+    {
+      "name": "Blockchain",
+      "icon": "⛓️",
+      "topics": [
+        "Introduction to Blockchain Technology",
+        "Smart Contracts and Ethereum",
+        "Decentralized Finance (DeFi)",
+        "NFTs and Digital Ownership",
+        "Consensus Mechanisms: PoW vs PoS",
+        "Blockchain in Supply Chain Management",
+        "Cryptocurrency and Bitcoin",
+        "Web3 and Decentralized Applications",
+        "Blockchain for Healthcare Data",
+        "Central Bank Digital Currencies (CBDC)"
+      ]
+    },
+    {
+      "name": "IoT",
+      "icon": "📡",
+      "topics": [
+        "Introduction to Internet of Things",
+        "IoT Architecture and Protocols",
+        "Smart Home Technology",
+        "Industrial IoT (IIoT) Applications",
+        "IoT Security Challenges",
+        "Edge AI in IoT Devices",
+        "Wearable Technology and Health IoT",
+        "Smart Cities and IoT Infrastructure",
+        "5G and Its Impact on IoT",
+        "IoT Data Management and Analytics"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "icon": "💻",
+      "topics": [
+        "Agile and Scrum Methodology",
+        "Design Patterns in Software Engineering",
+        "SOLID Principles",
+        "Test-Driven Development (TDD)",
+        "API Design and RESTful Services",
+        "Software Architecture Patterns",
+        "Version Control with Git",
+        "Code Review Best Practices",
+        "Software Quality Assurance",
+        "Low-Code and No-Code Platforms"
+      ]
+    }
+  ]
+}
