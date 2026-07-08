@@ -8,10 +8,10 @@ export default defineConfig({
     port: 5173,
     // Proxy API requests to Flask backend during development
     proxy: {
-      '/generate': 'http://127.0.0.1:5001/aireportgenrator/us-central1/api',
-      '/history': 'http://127.0.0.1:5001/aireportgenrator/us-central1/api',
-      '/preview': 'http://127.0.0.1:5001/aireportgenrator/us-central1/api',
-      '/health': 'http://127.0.0.1:5001/aireportgenrator/us-central1/api',
+      '/generate': 'http://127.0.0.1:5001',
+      '/history': 'http://127.0.0.1:5001',
+      '/preview': 'http://127.0.0.1:5001',
+      '/health': 'http://127.0.0.1:5001',
     },
   },
   build: {
