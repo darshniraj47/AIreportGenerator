@@ -30,7 +30,6 @@ from firebase_admin import credentials
 
 # Initialize Firebase Admin SDK
 try:
-    import os
     if os.path.exists("serviceAccountKey.json"):
         cred = credentials.Certificate("serviceAccountKey.json")
         firebase_admin.initialize_app(cred)
